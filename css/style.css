@@ -6,3 +6,33 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ #banner { width: 95%;
+ padding: 20px;
+ background-color: blueviolet;
+ margin: 10px;
+ align-content: center
+}
+
+ul.horizontal{
+margin: 0;
+padding: 10px;
+}
+
+ul.horizontal li{
+display: block;
+float: left;
+padding-left: 50px;
+background-color: cyan;
+color: black;
+}
+
+.intro h1 { align-content: center;
+}
+
+.img1 { display: inline-block;
+    width: 30%;
+    padding-left: 30px;
+
+}
+
