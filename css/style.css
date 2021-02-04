@@ -3,20 +3,31 @@
  * 
  * Remember: 
  * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
+ *   for example: General styles, Navigation styles, Hero styles, Footer etc.
  */
 
- #banner { width: 95%;
+ /* /////////////////////////////////////////////////////*/
+
+
+ /* header style */ 
+
+ #banner { 
+ width: 95%;
  padding: 20px;
- background-color: blueviolet;
+ background: linear-gradient(#029AAF,#CD008F);
  margin: 10px;
  align-content: center
 }
 
-ul.horizontal{
-margin: 0;
+/* nav style */ 
+
+ul.menu{
+margin-left: 10px;
+margin-right: 10px;
 padding: 10px;
+display:flex;
+justify-content: space-around;
+background-color: #0B2EBD;
 }
 
 ul.horizontal li{
