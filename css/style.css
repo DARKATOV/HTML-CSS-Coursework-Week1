@@ -130,10 +130,6 @@ color: cornsilk;
 font-size: 30px;
 }
 
-.link {text-align: center;
-float: center;
-}
-
 .articles p {text-align: justify;
 font-size: 15px;
 }
@@ -148,4 +144,11 @@ border-radius:5px;
 padding: 10px;
 border: 15px solid rgba(14, 18, 233, 0.342);
 text-align: center;
+}
+
+/* footer style */ 
+
+footer {background-color: black;
+color: blanchedalmond;
+text-align: right;
 }
